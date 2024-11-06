@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Features</a></li>
+        <li><a href="#section3">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- Section 1 -->
+    <section id="section1" class="hero">
+      <h1>Welcome to Our Amazing Product</h1>
+      <p>Discover the future of technology with us. Get started today!</p>
+      <button>Learn More</button>
+    </section>
+
+    <!-- Section 2: Features -->
+    <section id="section2" class="features">
+      <h2>Our Features</h2>
+      <div class="feature-list">
+        <div class="feature-item">
+          <h3>Feature 1</h3>
+          <p>Easy to use and highly customizable.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Feature 2</h3>
+          <p>Access anywhere with cloud synchronization.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Feature 3</h3>
+          <p>24/7 customer support and updates.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Contact -->
+    <section id="section3" class="contact">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you! Reach out with any questions or inquiries.</p>
+      <button>Get in Touch</button>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
